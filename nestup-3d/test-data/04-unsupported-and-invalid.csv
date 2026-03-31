@@ -1,0 +1,9 @@
+Entity Name,Level,Material,LenX,LenY,LenZ,X,Y,Z,plank_id
+Office Wall,0,,300mm,3800mm,2700mm,0mm,0mm,0mm,
+Work Cabinet,1,,1000mm,450mm,1800mm,250mm,0mm,0mm,
+valid shelf,2,inner,964mm,430mm,18mm,18mm,10mm,600mm,1
+bad number plank,2,inner,abc,430mm,18mm,18mm,10mm,900mm,2
+future hole row,3,hardware,20mm,20mm,20mm,100mm,100mm,100mm,3
+bad level text,hello,inner,200mm,200mm,200mm,0mm,0mm,0mm,4
+generic component,2,217 DM,964mm,430mm,18mm,18mm,10mm,1200mm,5
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NestUp 3D Assignment Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="panel controls-panel">
+      <div class="panel-header">
+        <p class="eyebrow">NestUp Assignment</p>
+        <h1>3D wall and cabinet viewer</h1>
+        <p class="intro">
+          Load raw CSV data, render the wall, cabinet, and every plank, then inspect any object during the demo.
+        </p>
+      </div>
+
+      <div class="controls-grid">
+        <label class="field">
+          <span>Upload CSV</span>
+          <input id="fileInput" type="file" accept=".csv,.tsv,text/csv,text/tab-separated-values">
+        </label>
+
+        <div class="button-row">
+          <button id="renderButton" type="button">Render scene</button>
+          <button id="sampleButton" type="button" class="secondary">Reload sample</button>
+        </div>
+      </div>
+
+      <label class="field">
+        <span>Raw data</span>
+        <textarea id="dataInput" spellcheck="false"></textarea>
+      </label>
+
+      <div class="hint-row">
+        <p>Drag to rotate. Use the mouse wheel or trackpad to zoom. Click any box to inspect the source row.</p>
+      </div>
+    </section>
+
+    <section class="panel viewport-panel">
+      <div class="viewport-header">
+        <div>
+          <p class="eyebrow">Viewer</p>
+          <h2>Scene output</h2>
+        </div>
+        <div id="statusBadge" class="status-badge">Ready</div>
+      </div>
+
+      <div class="view-controls">
+        <button id="resetViewButton" type="button" class="secondary">Reset view</button>
+        <button id="focusCabinetButton" type="button" class="secondary">Focus cabinet</button>
+        <button id="focusWallButton" type="button" class="secondary">Focus wall</button>
+      </div>
+
+      <div id="canvasWrap" class="canvas-wrap">
+        <canvas id="sceneCanvas"></canvas>
+      </div>
+
+      <div class="legend">
+        <span><i class="swatch wall"></i>Level 0 wall</span>
+        <span><i class="swatch cabinet"></i>Level 1 cabinet</span>
+        <span><i class="swatch plank"></i>Level 2 plank</span>
+        <span><i class="swatch accent"></i>217 DM / highlighted material</span>
+      </div>
+    </section>
+
+    <section class="panel info-panel">
+      <div class="viewport-header">
+        <div>
+          <p class="eyebrow">Checks</p>
+          <h2>Data summary</h2>
+        </div>
+      </div>
+
+      <div id="summaryCards" class="summary-cards"></div>
+
+      <div class="info-grid">
+        <div>
+          <h3>Validation notes</h3>
+          <ul id="notesList" class="notes-list"></ul>
+        </div>
+
+        <div>
+          <h3>Selected object</h3>
+          <div id="selectionCard" class="selection-card">
+            <p>Select an object in the canvas to inspect its source row.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Entity Name,Level,Material,LenX,LenY,LenZ,X,Y,Z,plank_id
+Corner Wall,0,,250mm,3600mm,2600mm,-100mm,0mm,0mm,
+Shoe Unit,1,,900mm,320mm,1200mm,200mm,-40mm,0mm,
+back panel,2,inner,864mm,10mm,1100mm,18mm,292mm,50mm,1
+left panel,2,inner,18mm,292mm,1200mm,-10mm,10mm,0mm,2
+right panel,2,217 DM,18mm,292mm,1200mm,892mm,10mm,0mm,3
+top panel,2,inner,864mm,292mm,18mm,18mm,10mm,1182mm,4
+bottom panel,2,inner,864mm,292mm,18mm,18mm,10mm,-18mm,5
+

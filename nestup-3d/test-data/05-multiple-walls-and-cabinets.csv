@@ -1,0 +1,11 @@
+Entity Name,Level,Material,LenX,LenY,LenZ,X,Y,Z,plank_id
+Wall A,0,,350mm,4200mm,2800mm,0mm,0mm,0mm,
+Wall B,0,,350mm,3900mm,2800mm,4500mm,0mm,0mm,
+Cabinet A,1,,1000mm,400mm,1800mm,300mm,0mm,0mm,
+Cabinet B,1,,900mm,380mm,1500mm,1600mm,0mm,0mm,
+A left panel,2,inner,18mm,380mm,1800mm,0mm,10mm,0mm,1
+A right panel,2,217 DM,18mm,380mm,1800mm,982mm,10mm,0mm,2
+A top panel,2,inner,964mm,380mm,18mm,18mm,10mm,1782mm,3
+A bottom panel,2,inner,964mm,380mm,18mm,18mm,10mm,0mm,4
+B shelf,2,inner,864mm,360mm,18mm,18mm,10mm,700mm,5
+B back panel,2,inner,864mm,10mm,1400mm,18mm,350mm,50mm,6

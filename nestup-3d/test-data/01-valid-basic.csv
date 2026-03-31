@@ -1,0 +1,10 @@
+Entity Name,Level,Material,LenX,LenY,LenZ,X,Y,Z,plank_id
+Living Room Wall,0,,300mm,4200mm,2700mm,0mm,0mm,0mm,
+Bookshelf,1,,1200mm,350mm,2100mm,300mm,0mm,0mm,
+back panel,2,inner,1164mm,10mm,2000mm,18mm,330mm,50mm,1
+left panel,2,inner,18mm,330mm,2100mm,0mm,10mm,0mm,2
+right panel,2,217 DM,18mm,330mm,2100mm,1182mm,10mm,0mm,3
+top panel,2,inner,1164mm,330mm,18mm,18mm,10mm,2082mm,4
+bottom panel,2,inner,1164mm,330mm,18mm,18mm,10mm,0mm,5
+middle shelf,2,inner,1164mm,330mm,18mm,18mm,10mm,1040mm,6
+

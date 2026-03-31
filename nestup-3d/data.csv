@@ -1,0 +1,11 @@
+Entity Name,Level,Material,LenX,LenY,LenZ,X,Y,Z,plank_id
+MBR Wall 4,0,,540mm,5387mm,2884mm,0mm,0mm,0mm,
+Shoerack,1,,1000mm,276mm,700mm,540mm,0mm,0mm,
+back plank 1,2,inner,1362mm,10mm,390mm,0mm,440mm,110mm,1
+vertical 2,2,inner,18mm,80mm,354mm,452mm,18mm,128mm,2
+top plank,2,inner,1334mm,422mm,18mm,18mm,18mm,482mm,3
+left plank,2,inner,18mm,422mm,500mm,0mm,18mm,0mm,4
+right plank,2,217 DM,18mm,434mm,500mm,1352mm,18mm,0mm,5
+bottom plank,2,inner,1334mm,422mm,18mm,18mm,18mm,110mm,6
+skirting,2,217 DM,1380mm,18mm,110mm,0mm,18mm,0mm,7
+Component#137,2,217 DM,1370mm,450mm,18mm,0mm,0mm,500mm,8

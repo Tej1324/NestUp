@@ -1,0 +1,11 @@
+Entity Name,Level,Material,LenX,LenY,LenZ,X,Y,Z,plank_id
+Bedroom Wall,0,,400mm,5000mm,2800mm,0mm,0mm,0mm,
+Wardrobe,1,,1800mm,600mm,2400mm,400mm,0mm,0mm,
+back panel,2,inner,1764mm,10mm,2300mm,18mm,572mm,50mm,1
+left panel,2,inner,18mm,572mm,2400mm,0mm,10mm,0mm,2
+right panel,2,217 DM,18mm,572mm,2400mm,1782mm,10mm,0mm,3
+top panel,2,inner,1764mm,572mm,18mm,18mm,10mm,2382mm,4
+bottom panel,2,inner,1764mm,572mm,18mm,18mm,10mm,0mm,5
+broken shelf,2,inner,0mm,572mm,18mm,18mm,10mm,800mm,6
+flat error plank,2,inner,500mm,0mm,18mm,18mm,10mm,1200mm,7
+
